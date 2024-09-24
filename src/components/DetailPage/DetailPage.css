@@ -1,0 +1,42 @@
+.DetailPage{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/asset/images/bg_detailpage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+.DetailPage .imageSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-height: 100vh;
+}
+.DetailPage .imageSide img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.DetailPage .textSide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.DetailPage .textSide p{
+    width: 70%;
+}
+.DetailPage .textSide .icons{
+    display: flex;
+    gap: 20px;
+}
+.DetailPage .textSide .icons img{
+    width: 25px;
+    height: 25px;
+}
